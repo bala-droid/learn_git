@@ -37,6 +37,22 @@ $ git push -u origin master # pushes changes to origin
 
 $ git diff # To show the files changes not yet staged
 
+$ git clone remote_repository_URL
+
+$ git pull origin master
+
+$ git pull --rebase origin master
+
+
+$ git fetch
+    AND
+$ git merge
+
+$ touch .gitignore
+
+git fetch origin
+
+git checkout <branch>
 
 
 
@@ -45,3 +61,7 @@ $ git add .
 $ git status # Lists all new or modified files to be committed
 $ git commit -m "Second commit"
 $ git push -u origin master
+
+Undo git add for uncommitted changes with:
+
+git reset <file>
