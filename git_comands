@@ -1,0 +1,47 @@
+GIT Commands:
+$ git --version
+
+$ git config --global user.name "YOUR_USERNAME"
+
+$ git config --global user.email "im_satoshi@musk.com"
+
+$ git config --global --list # To check the info you just provided
+
+$ cd Desktop/MuskCult
+
+$ touch README.md    # To create a README file for the repository
+$ git init           # Initiates an empty git repository
+
+
+$ git add .  
+# Adds all the files in the local repository and stages them for commit
+
+OR if you want to add a specific file
+
+$ git add README.md 
+# To add a specific file
+
+$ git commit -m "First commit"
+# The message in the " " is given so that the other users can read the message and see what changes you made
+
+$ git reset HEAD~1
+# Remove the most recent commit
+# Commit again!
+
+$ git remote add origin git@github.com:bala-droid/learn_git.git
+# sets the new remote
+
+$ git remote set-url origin git@github.com:bala-droid/learn_git.git
+
+$ git push -u origin master # pushes changes to origin
+
+$ git diff # To show the files changes not yet staged
+
+
+
+
+Common commands:
+$ git add .
+$ git status # Lists all new or modified files to be committed
+$ git commit -m "Second commit"
+$ git push -u origin master
